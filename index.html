@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>My first form, How much do you love cats?</title>
+    </head>
+    <body>
+        <header>
+        <h1 id="title">Forms of cats</h1>
+        <p id="description">How much do you love cats?</p>    
+        </header>
+        <form id="survey-form">
+        <fieldset id="survey-form">
+            <fieldset>    
+                <label for="name" id="name-label">Write your name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required/>
+                <label for="email" id="email-label">Write your email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required /> 
+                <label for="number" id="number-label">Write your age <span class="clue">(Optional)</span></label>
+                    <input type="number"  id="number" min="13" max="120" placeholder="Age" />
+            </fieldset>
+            <fieldset>
+                <label for="dropdown">What is your favorite race of cat? <span class="clue">Only 2 options</span></label>
+                <select id="dropdown" multiple size="6" required>
+                    <option value="abyssinian">Abyssinian</option>
+                    <option value="birman">Birman</option>
+                    <option value="cornish-rex">Cornish Rex</option>
+                    <option value="american-shorthair">American Shorthair</option>
+                    <option value="british-shorthair">British Shorthair</option>
+                    <option value="devon-rex">Devon Rex</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <p>Why do you love cats?</p>
+
+                <label for="affectionate-nature-buttom"> <input type="radio" id="affectionate-nature-buttom" name="characteristics" value="1"/>Affectionate Nature</label>
+                <label for="playfulness-buttom"><input type="radio" id="playfulness-buttom" name="characteristics" value="2"/>Playfulness</label>
+                <label for="elegant-appearance-buttom"><input type="radio" id="elegant-appearance-buttom" name="characteristics" value="3" />Elegant Appearance</label>
+            </fieldset>
+            <fieldset>
+                <p>What things your cat has?</p>
+                <label><input type="checkbox" value="food">FOOD AND WATER BOWLS</label>
+                <label><input type="checkbox" value="box">LITTER BOX</label>
+                <label><input type="checkbox" value="bed">BEDDING</label>
+                <label><input type="checkbox" value="post">SCRATCHING POST</label>
+                <label><input type="checkbox" value="toys">TOYS</label>
+            </fieldset>
+            <fieldset>
+                <label for="oppinion">What do you thing about this form</label>
+                <textarea name="op" id="oppinion" rows="2" cols="50" placeholder="Write your opinion...."></textarea>
+            </fieldset>
+
+        <input type="submit" id="submit">
+        </form>        
+    </body>
+</html>

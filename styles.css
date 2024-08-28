@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+    background-image: 
+    url(https://pbs.twimg.com/media/FmFfKtYXgAAvZr5?format=jpg&name=large);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, #description{
+    text-align: center;
+    color: rgba(200, 50, 100, 1.0);
+    text-shadow: 5px 5px 4px rgba(200, 50, 100, 1.0);
+}
+
+form{
+    width: 60vw;
+    max-width: 500px;/*The max width that the form can take*/
+    min-width: 300px;/*The min width that the form can take*/
+    margin: 0 auto;/*It´s a form to center the text and the title*/
+    padding-bottom: 2em;
+    background-color: rgba(80,56,180,1);
+}
+
+fieldset{
+    border: none;
+    padding-bottom: 2em;
+    border-bottom: 3px solid rgba(200,40,10,1);
+}
+
+fieldset:last-of-type{
+    border: none;
+}
+
+
+input,textarea,select{
+    background-color: beige;
+    border:1px solid rgba(200, 80, 40, 1);
+    color: green;
+}
+
+.inline {
+    width: unset;/*inherited the size that use his parents*/
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;/*Affects the vertical position of a button*/
+}
+
+label{
+    display:block;
+    margin:0.5em 0;
+}
+
+.inline{
+    display: inline; 
+}
+.clue{
+    opacity: 80%;
+    font-size: 90%;
+}
+select{
+    margin: 0 auto;
+    position: relative;
+}
