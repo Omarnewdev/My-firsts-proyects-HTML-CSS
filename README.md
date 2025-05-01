@@ -1,8 +1,11 @@
-# A FORMULARY
+# PRACTICE ALL THAT I LEARN
 
-First of all I´m a new development in HTML and CSS,
-so I know the code doesn´t perfect but I going to 
-improve my skills to know every single line that I´m 
-writing.
+If you are here welcome to my repository that will contain all the PROYECTS
+with which I will learn to handle HTML and CSS.
 
-**My apologies if I have gramatical erros but I need to practice my English**
+- FORMULARY: [Here](/FORMULARY/) I learn how to get data from the user.
+- TRIBUT PAGE: [Here](/TRIBUT%20PAGE/) I learn how to structure a HTML page.
+
+
+![HTML-Logo](/resources/HTML-5-Logo.png)
+![CSS-Logo](/resources/CSS-Logo.png)
